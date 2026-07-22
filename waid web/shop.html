@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Best Practices -->
+  <title>Shop Collection | WAID Luxury Leather Footwear</title>
+  <meta name="description" content="Browse the full collection of WAID premium handcrafted leather footwear. Find the perfect Oxfords, Chelsea Boots, and Loafers for your wardrobe.">
+  
+  <!-- Styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Navigation Header (Dynamically Injected) -->
+  <header></header>
+
+  <!-- Main Catalog Content -->
+  <main class="container">
+    <div class="shop-layout">
+      
+      <!-- Filter Sidebar -->
+      <aside class="shop-sidebar">
+        <h2 class="sidebar-title">Categories</h2>
+        <ul class="filter-list">
+          <li><button class="filter-cat-btn active" data-category="All">All Footwear</button></li>
+          <li><button class="filter-cat-btn" data-category="Oxfords">Oxfords & Monks</button></li>
+          <li><button class="filter-cat-btn" data-category="Boots">Chelsea Boots</button></li>
+          <li><button class="filter-cat-btn" data-category="Loafers">Penny Loafers</button></li>
+        </ul>
+        
+        <div style="border-top: 1px solid var(--color-border); padding-top: 2rem; margin-top: 2rem;">
+          <h2 class="sidebar-title" style="margin-bottom: 1rem;">Sizing & Fit</h2>
+          <p style="font-size: 0.8rem; color: var(--color-text-muted); line-height: 1.5;">All WAID shoes are made in standard US sizes (D width). They fit true to size. If you are between sizes, we recommend ordering the smaller size.</p>
+        </div>
+      </aside>
+
+      <!-- Main Product Area -->
+      <section class="shop-main">
+        
+        <!-- Controls Bar -->
+        <div class="shop-controls">
+          <div class="search-wrap">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" class="form-input search-input" id="shop-search" placeholder="Search our collection..." aria-label="Search shoes">
+          </div>
+          
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <label for="shop-sort" style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-muted);">Sort By</label>
+            <select class="sort-select" id="shop-sort">
+              <option value="popular">Bestselling</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="rating">Top Rated</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Products Grid (Populated dynamically by main.js) -->
+        <div class="products-grid" id="products-grid">
+          <!-- Loading skeletons or products rendered here -->
+        </div>
+
+      </section>
+      
+    </div>
+  </main>
+
+  <!-- Brand Footer (Dynamically Injected) -->
+  <footer></footer>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
