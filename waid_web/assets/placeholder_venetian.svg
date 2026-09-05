@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#f6f3ee"/>
+  <rect x="18" y="18" width="864" height="864" fill="none" stroke="#c5a880" stroke-width="2" stroke-dasharray="10 8"/>
+  <g transform="translate(450,380)" fill="none" stroke="#5c3a21" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.55">
+    <path d="M-180,60 C-180,-10 -140,-70 -70,-90 L40,-90 C90,-90 110,-60 150,-40 C190,-20 200,10 200,40 L200,60 C200,80 185,95 165,95 L-160,95 C-172,95 -180,85 -180,72 Z"/>
+    <path d="M-70,-90 L-70,-20"/>
+    <path d="M-20,-90 L-20,-10"/>
+  </g>
+  <text x="450" y="560" font-family="Georgia, 'Playfair Display', serif" font-size="34" fill="#3a2211" text-anchor="middle" font-style="italic">PHOTO NEEDED</text>
+  <text x="450" y="605" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="17" letter-spacing="2" fill="#8a8377" text-anchor="middle">REPLACE WITH PRODUCT PHOTO</text>
+</svg>
