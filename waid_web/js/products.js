@@ -40,10 +40,10 @@
 const PRODUCTS = [
   {
     id: "waid-oxford",
-    name: "The Classic Wholecut Oxford",
-    price: 295,
+    name: "Plain piping",
+    price: 1499,
     category: "loafers",
-    color: "Cognac Brown",
+    color: "Black",
     colorHex: "#8B4513",
     rating: 4.9,
     reviewsCount: 124,
@@ -53,7 +53,7 @@ const PRODUCTS = [
       "assets/Both shoes (1).jpeg", // Mock secondary images
       "assets/Both shoes (1).jpeg"
     ],
-    sizes: [7, 8, 9, 10, 11, 12],
+    sizes: [40, 41, 42, 43, 44],
     description: "Sculpted from a single piece of premium Italian full-grain calfskin, the Classic Wholecut Oxford represents the pinnacle of formal footwear. Clean, seamless, and timelessly elegant.",
     specs: [
       "100% Italian full-grain calfskin leather",
@@ -73,20 +73,20 @@ const PRODUCTS = [
   },
   {
     id: "waid-chelsea",
-    name: "The Signature Chelsea Boot",
-    price: 345,
+    name: "Plain piping",
+    price: 1499,
     category: "loafers",
-    color: "Espresso Brown",
+    color: "Tan",
     colorHex: "#3d2314",
     rating: 4.8,
     reviewsCount: 98,
-    image: "assets/Both shoes (2).jpeg",
+    image: "assets/Both shoes (4).jpeg",
     images: [
-      "assets/Both shoes (2).jpeg",
-      "assets/Both shoes (2).jpeg",
-      "assets/Both shoes (2).jpeg"
+      "assets/Both shoes (4).jpeg",
+      "assets/Both shoes (4).jpeg",
+      "assets/Both shoes (4).jpeg"
     ],
-    sizes: [7, 8, 9, 10, 11, 12],
+    sizes: [40, 41, 42, 43, 44, 45],
     description: "A refined take on the classic silhouette, our Chelsea boot is crafted from butter-soft calfskin leather with sleek double-sided elastic panels and a hand-stitched pull tab. Effortlessly transitions from casual to formal.",
     specs: [
       "Premium Italian calfskin leather upper",
@@ -106,20 +106,20 @@ const PRODUCTS = [
   },
   {
     id: "waid-loafer",
-    name: "The Heritage Penny Loafer",
-    price: 265,
+    name: "Croco",
+    price: 1499,
     category: "Loafers",
-    color: "Mahogany Suede",
+    color: "Tan",
     colorHex: "#4e2d1f",
     rating: 4.7,
     reviewsCount: 76,
-    image: "assets/Both shoes (3).jpeg",
+    image: "assets/Both shoes (2).jpeg",
     images: [
-      "assets/Both shoes (3).jpeg",
-      "assets/Both shoes (3).jpeg",
-      "assets/Both shoes (3).jpeg"
+      "assets/Both shoes (2).jpeg",
+      "assets/Both shoes (2).jpeg",
+      "assets/Both shoes (2).jpeg"
     ],
-    sizes: [7, 8, 9, 10, 11, 12],
+    sizes: [40, 41, 42, 43, 44, 45],
     description: "Crafted in rich, water-resistant Italian suede, the Heritage Penny Loafer brings relaxed sophistication to any wardrobe. Features an unlined, extra-flexible structure that contours to your foot over time.",
     specs: [
       "Fine Italian calf suede with water-repellent finish",
@@ -139,20 +139,20 @@ const PRODUCTS = [
   },
   {
     id: "waid-monk",
-    name: "The Modern Double Monk Strap",
-    price: 315,
+    name: "Croco",
+    price: 1499,
     category: "loafers",
-    color: "Obsidian Black",
+    color: "Black",
     colorHex: "#111111",
     rating: 4.9,
     reviewsCount: 54,
-    image: "assets/Both shoes (4).jpeg",
+    image: "assets/Both shoes (6).jpeg",
     images: [
-      "assets/Both shoes (4).jpeg",
-      "assets/Both shoes (4).jpeg",
-      "assets/Both shoes (4).jpeg"
+      "assets/Both shoes (6).jpeg",
+      "assets/Both shoes (6).jpeg",
+      "assets/Both shoes (6).jpeg"
     ],
-    sizes: [7, 8, 9, 10, 11, 12],
+    sizes: [40, 41, 42, 43, 44, 45],
     description: "Exude confidence with our Double Monk Strap, detailed with solid brass buckles. Masterfully crafted from polished French box calf leather, it features a structured silhouette that makes a bold, tailored statement.",
     specs: [
       "Polished French box calf leather upper",
@@ -172,10 +172,10 @@ const PRODUCTS = [
   },
   {
     id: "waid-derby",
-    name: "The Heritage Cap-Toe Derby",
-    price: 285,
+    name: "amazon",
+    price: 1499,
     category: "loafers",
-    color: "Jet Black",
+    color: "Black",
     colorHex: "#1c1c1c",
     rating: 4.8,
     reviewsCount: 41,
@@ -185,7 +185,7 @@ const PRODUCTS = [
       "assets/Both shoes (5).jpeg", // Mock secondary images
       "assets/Both shoes (5).jpeg"
     ],
-    sizes: [7, 8, 9, 10, 11, 12],
+    sizes: [40, 41, 42, 43, 44, 45],
     description: "An open-lacing silhouette with a crisp cap-toe seam, the Cap-Toe Derby brings a slightly more relaxed formality than the Oxford without sacrificing polish. Finished in deep jet black full-grain leather.",
     specs: [
       "Full-grain Italian leather upper",
@@ -205,20 +205,20 @@ const PRODUCTS = [
   },
   {
     id: "waid-suede-boot",
-    name: "The Explorer Suede Boot",
-    price: 325,
+    name: "Amazon",
+    price: 1499,
     category: "loafers",
-    color: "Sandstone Suede",
+    color: "Tan",
     colorHex: "#a9825b",
     rating: 4.7,
     reviewsCount: 33,
-    image: "assets/Both shoes (6).jpeg",
+    image: "assets/Both shoes (3).jpeg",
     images: [
-      "assets/Both shoes (6).jpeg",
-      "assets/Both shoes (6).jpeg", // Mock secondary images
-      "assets/Both shoes (6).jpeg"
+      "assets/Both shoes (3).jpeg",
+      "assets/Both shoes (3).jpeg", // Mock secondary images
+      "assets/Both shoes (3).jpeg"
     ],
-    sizes: [7, 8, 9, 10, 11, 12],
+    sizes: [40, 41, 42, 43, 44, 45],
     description: "A rugged yet refined boot in warm sandstone suede, the Explorer pairs a durable lugged sole with hand-finished leather detailing — built for versatility from city streets to weekend travel.",
     specs: [
       "Premium water-resistant Italian suede upper",
