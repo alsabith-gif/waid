@@ -180,7 +180,7 @@ const SITE_CONTENT = {
   /* ---------- Mobile menu drawer footer note ---------- */
   mobileDrawer: {
     whatsappButtonText: "Chat on WhatsApp",
-    tagline: "Est. 2026 — Handcrafted Italian Leather",
+    tagline: "Est. 2026 — Handcrafted Indian Leather",
   },
 };
 
