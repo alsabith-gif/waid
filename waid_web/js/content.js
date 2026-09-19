@@ -83,7 +83,7 @@ const SITE_CONTENT = {
 
   /* ---------- Hero (the big top section) ---------- */
   hero: {
-    eyebrow: "ESTABLISHED 2026",
+    eyebrow: " ESTABLISHED 2026",
     heading: "Walk With Confidence",
     paragraph: "Handcrafted Indian leather footwear designed with a commitment to premium quality, minimal aesthetics, and timeless heritage.",
     buttonText: "Explore Collection",
