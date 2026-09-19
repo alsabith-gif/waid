@@ -59,7 +59,7 @@ const SITE_CONTENT = {
      Leave as "#" to hide/disable a link visually (it just won't go anywhere). */
   social: {
     instagram: "https://www.instagram.com/waid.in_?stkn=eXF2Ymc5ZWE5eWh6",
-    facebook: "#",
+    facebook: "https://www.facebook.com/share/1CEjYStDQ8/",
   },
 
   /* ---------- Automated WhatsApp messages ----------
@@ -85,7 +85,7 @@ const SITE_CONTENT = {
   hero: {
     eyebrow: "ESTABLISHED 2026",
     heading: "Walk With Confidence",
-    paragraph: "Handcrafted Italian leather footwear designed with a commitment to premium quality, minimal aesthetics, and timeless heritage.",
+    paragraph: "Handcrafted Indian leather footwear designed with a commitment to premium quality, minimal aesthetics, and timeless heritage.",
     buttonText: "Explore Collection",
     buttonHref: "#collection",
     backgroundImage: "assets/hero_bg.png",
@@ -151,10 +151,7 @@ const SITE_CONTENT = {
     // These just link back to the Collection section — for a filtered link,
     // point them at "#collection" as well.
     collectionsLinks: [
-      { label: "Oxfords Series", href: "#collection" },
-      { label: "Chelsea Boots", href: "#collection" },
-      { label: "Penny Loafers", href: "#collection" },
-      { label: "Double Monk Straps", href: "#collection" },
+      { label: "Loafer", href: "#collection" },
     ],
     businessHeading: "Business Info",
     labelLocation: "Location:",
