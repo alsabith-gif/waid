@@ -42,9 +42,9 @@ const SITE_CONTENT = {
      no "+", no spaces, no dashes. Example for India: 91 followed
      by the 10-digit number. */
   contact: {
-    whatsappNumber: "917306589121",
-    whatsappDisplay: "+91 73065 89121",
-    email: "concierge@waidshoes.com",
+    whatsappNumber: "91 9544708707",
+    whatsappDisplay: "+91 9544708707",
+    email: "info@waid.in",
     address: "Kozhikode, Kerala, India",
     hours: "Mon – Sat, 10am – 7pm IST",
     // These are just the small field labels shown above each detail
@@ -58,7 +58,7 @@ const SITE_CONTENT = {
   /* ---------- Social links ----------
      Leave as "#" to hide/disable a link visually (it just won't go anywhere). */
   social: {
-    instagram: "#",
+    instagram: "https://www.instagram.com/waid.in_?stkn=eXF2Ymc5ZWE5eWh6",
     facebook: "#",
   },
 
@@ -84,7 +84,7 @@ const SITE_CONTENT = {
   /* ---------- Hero (the big top section) ---------- */
   hero: {
     eyebrow: "ESTABLISHED 2026",
-    heading: "Elegance in Every Step",
+    heading: "Walk With Confidence",
     paragraph: "Handcrafted Italian leather footwear designed with a commitment to premium quality, minimal aesthetics, and timeless heritage.",
     buttonText: "Explore Collection",
     buttonHref: "#collection",
